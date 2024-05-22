@@ -1,20 +1,20 @@
 import React from "react";
+import { Spacer } from "@nextui-org/spacer";
 
-import { Image } from "@nextui-org/image";
-
+import { title, subtitle } from "@/components/primitives";
 import { siteConfig } from "@/config/site";
+
 export const Projects = () => {
   return (
     <section id="projects">
+      <Spacer y={5} />
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps Ive Built
-          </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+        <div className="flex flex-col w-full mb-20 mt-24">
+          <h1 className={title()}>My Projects</h1>
+          <Spacer y={2} />
+          <p className={subtitle()}>
+            Here are some of the projects I have worked on. These projects are
+            my requirements in our Web Development Course.
           </p>
         </div>
         <div className="flex flex-row">

@@ -6,7 +6,7 @@ import { title, subtitle } from "@/components/primitives";
 
 export const AboutMe = () => {
   return (
-    <section className="flex flex-row">
+    <section className="flex flex-row" id="about">
       <Spacer y={2} />
       <div className="basis-1/2 ml-32 m-8 pr-8 text-center justify-center">
         <h1 className={title()}>About&nbsp;</h1>
@@ -29,6 +29,7 @@ export const AboutMe = () => {
           width={300}
         />
       </div>
+      <Spacer y={2} />
     </section>
   );
 };

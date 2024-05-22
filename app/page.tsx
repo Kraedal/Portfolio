@@ -1,6 +1,4 @@
 import { Link } from "@nextui-org/link";
-import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code";
 import { button as buttonStyles } from "@nextui-org/theme";
 
 import { siteConfig } from "@/config/site";
@@ -13,9 +11,7 @@ export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
       <Jumbotron />
-      <div id="about">
-        <AboutMe />
-      </div>
+      <AboutMe />
       <Projects />
       <div className="flex gap-3">
         <Link
@@ -37,13 +33,6 @@ export default function Home() {
           <GithubIcon size={20} />
           GitHub
         </Link>
-      </div>
-      <div className="mt-8">
-        <Snippet hideCopyButton hideSymbol variant="flat">
-          <span>
-            Get started by editing <Code color="primary">app/page.tsx</Code>
-          </span>
-        </Snippet>
       </div>
     </section>
   );
