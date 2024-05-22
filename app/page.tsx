@@ -6,6 +6,7 @@ import { GithubIcon } from "@/components/icons";
 import { AboutMe } from "@/components/about-me";
 import { Jumbotron } from "@/components/jumbotron";
 import { Projects } from "@/components/projects";
+import { Achievements } from "@/components/achievements";
 
 export default function Home() {
   return (
@@ -13,18 +14,8 @@ export default function Home() {
       <Jumbotron />
       <AboutMe />
       <Projects />
+
       <div className="flex gap-3">
-        <Link
-          isExternal
-          className={buttonStyles({
-            color: "primary",
-            radius: "full",
-            variant: "shadow",
-          })}
-          href={siteConfig.links.docs}
-        >
-          Documentation
-        </Link>
         <Link
           isExternal
           className={buttonStyles({ variant: "bordered", radius: "full" })}
@@ -34,6 +25,7 @@ export default function Home() {
           GitHub
         </Link>
       </div>
+      <Achievements />
     </section>
   );
 }

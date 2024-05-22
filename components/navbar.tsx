@@ -60,7 +60,7 @@ export const Navbar = () => {
             className="text-sm font-normal text-default-600 bg-default-100"
             href={siteConfig.links.sponsor}
           >
-            Contact Me
+            Coffee?
           </Button>
         </NavbarItem>
       </NavbarContent>
