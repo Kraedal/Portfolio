@@ -6,13 +6,15 @@ import { title, subtitle } from "@/components/primitives";
 
 export const Achievements = () => {
   return (
-    <section id="about">
+    <section id="achievements">
       <Spacer y={2} />
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <h1 className={title()}>Achievements</h1>
         <Spacer y={2} />
         <p className={subtitle()}>Here is one of my achievements where </p>
-        <p className={subtitle()}>I designed the prototype of our application.</p>
+        <p className={subtitle()}>
+          I designed the prototype of our application.
+        </p>
       </div>
       <br />
       <Spacer y={2} />
