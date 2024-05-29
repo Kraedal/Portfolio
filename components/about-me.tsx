@@ -25,7 +25,7 @@ export const AboutMe = () => {
           alt="NextUI hero Image"
           height={300}
           loading="eager"
-          src="https://t.ly/lz1t5"
+          src="https://scontent.fmnl33-2.fna.fbcdn.net/v/t39.30808-6/414203337_1085360419146689_2554317155910311676_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ZUGKIKojMxIQ7kNvgHpBXkK&_nc_ht=scontent.fmnl33-2.fna&oh=00_AYD467ktUV0H_QFIXCDoGkWAZoNWMafFhwppEoPIfmxXVw&oe=665C516D"
           width={300}
         />
       </div>
